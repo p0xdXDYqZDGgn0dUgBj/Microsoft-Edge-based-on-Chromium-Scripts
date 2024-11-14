@@ -19,11 +19,13 @@ $JSON_File_Path = "$($env:localappdata)\Microsoft\$($EdgeRelease)\User Data\Defa
 #$HTML_File_Dir = "C:\Temp"
 #$HTML_File_Dir = "$($env:userprofile)\backup"
 #$HTML_File_Dir = "$($env:userprofile)"
-$HTML_File_Dir = "$($env:userprofile)\Documents"
+# $HTML_File_Dir = "$($env:userprofile)\Documents"
+$HTML_File_Dir = "$($env:userprofile)\.pkm\obsidian\mpmuell1@mts\Browser\Bookmark Backups"
 
 ### Filename of HTML-Export (Backup-Filename), choose with YYYY-MM-DD_HH-MM-SS Date-Suffix or fixed Filename
 #$HTML_File_Path = "$($HTML_File_Dir)\EdgeChromium-Bookmarks.backup.html"
-$HTML_File_Path = "$($HTML_File_Dir)\EdgeChromium-Bookmarks.backup_$($ExportedTime).html"
+# $HTML_File_Path = "$($HTML_File_Dir)\EdgeChromium-Bookmarks.backup_$($ExportedTime).html"
+$HTML_File_Path = "$($HTML_File_Dir)\Edge-Bookmarks.backup_$($ExportedTime).html"
 
 ## Reference-Timestamp needed to convert Timestamps of JSON (Milliseconds / Ticks since LDAP / NT epoch 01.01.1601 00:00:00 UTC) to Unix-Timestamp (Epoch)
 $Date_LDAP_NT_EPOCH = Get-Date -Year 1601 -Month 1 -Day 1 -Hour 0 -Minute 0 -Second 0
