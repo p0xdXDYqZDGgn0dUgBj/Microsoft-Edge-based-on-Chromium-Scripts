@@ -20,7 +20,7 @@ $JSON_File_Path = "$($env:localappdata)\Microsoft\$($EdgeRelease)\User Data\Defa
 #$HTML_File_Dir = "$($env:userprofile)\backup"
 #$HTML_File_Dir = "$($env:userprofile)"
 # $HTML_File_Dir = "$($env:userprofile)\Documents"
-$HTML_File_Dir = "$($env:userprofile)\.pkm\obsidian\mpmuell1@mts\My MTS Vault\My MTS\My Dev Env\_BACKUPS_\BookmarksBackups"
+$HTML_File_Dir = "$($env:userprofile)\.pkm\obsidian\mpmuell1@mts\My MTS Vault\My MTS\My Dev Env Backups\BookmarksBackups"
 
 ### Filename of HTML-Export (Backup-Filename), choose with YYYY-MM-DD_HH-MM-SS Date-Suffix or fixed Filename
 #$HTML_File_Path = "$($HTML_File_Dir)\EdgeChromium-Bookmarks.backup.html"
